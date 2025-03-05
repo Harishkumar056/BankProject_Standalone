@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="customerPage" prefHeight="726.0" prefWidth="755.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="customerPage.CustomerScreenController">
+   <children>
+      <Label layoutX="364.0" layoutY="82.0" prefHeight="30.0" prefWidth="87.0" text="Customer">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Button layoutX="318.0" layoutY="165.0" mnemonicParsing="false" onAction="#createNewAccount" prefHeight="54.0" prefWidth="204.0" text="Create New Account">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="319.0" layoutY="264.0" mnemonicParsing="false" onAction="#balanceEnquire" prefHeight="54.0" prefWidth="204.0" text="Deposit/withdraw Enquire">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="-1.0" mnemonicParsing="false" onAction="#backToVpage" prefHeight="36.0" prefWidth="47.0" text="Back" />
+   </children>
+</AnchorPane>

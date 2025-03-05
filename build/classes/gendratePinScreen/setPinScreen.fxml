@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" fx:id="gendratePinScreen" prefHeight="712.0" prefWidth="647.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="gendratePinScreen.SetPinScreenController">
+   <children>
+      <Label layoutX="301.0" layoutY="238.0" prefHeight="30.0" prefWidth="116.0" text="Gendrate Pin">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="checkName" layoutX="359.0" layoutY="310.0">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </TextField>
+      <Label layoutX="199.0" layoutY="308.0" prefHeight="30.0" prefWidth="131.0" text="Enter Your Name :">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="122.0" layoutY="377.0" prefHeight="30.0" prefWidth="214.0" text="Enter Your Account Number :">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="checkAccountNumber" layoutX="359.0" layoutY="379.0">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </TextField>
+      <Button layoutX="521.0" layoutY="430.0" mnemonicParsing="false" onAction="#genratePinFun" text="Generate">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

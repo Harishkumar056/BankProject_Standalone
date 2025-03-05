@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" fx:id="pinScreen" prefHeight="732.0" prefWidth="695.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="setPin.SetPinController">
+   <children>
+      <Label layoutX="318.0" layoutY="167.0" text="Enter Pin">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="110.0" layoutY="231.0" text="Enter Your Account Number : ">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="accountNumber" layoutX="358.0" layoutY="229.0">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </TextField>
+      <Label layoutX="166.0" layoutY="281.0" prefHeight="27.0" prefWidth="180.0" text="set Your Pin Number : ">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="pin" layoutX="358.0" layoutY="279.0">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </TextField>
+      <Button layoutX="526.0" layoutY="341.0" mnemonicParsing="false" onAction="#ProceedButton" text="Proceed">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

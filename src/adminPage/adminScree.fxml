@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" fx:id="adminLoginPage" prefHeight="724.0" prefWidth="730.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="adminPage.AdminScreeController">
+   <children>
+      <Label layoutX="254.0" layoutY="180.0" text="Admin Login ">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="adminName" layoutX="302.0" layoutY="273.0">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </TextField>
+      <Label layoutX="150.0" layoutY="274.0" prefHeight="30.0" prefWidth="104.0" text="Admin Name :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="137.0" layoutY="347.0" prefHeight="30.0" prefWidth="129.0" text="Admin Password :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <TextField fx:id="adminPassword" layoutX="302.0" layoutY="347.0">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </TextField>
+      <Button layoutX="513.0" layoutY="402.0" mnemonicParsing="false" onAction="#adminLogin" text="Login" />
+      <Button layoutY="2.0" mnemonicParsing="false" onAction="#adminBack" text="Back" />
+   </children>
+</AnchorPane>

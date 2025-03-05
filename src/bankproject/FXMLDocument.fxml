@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="firstPage" prefHeight="674.0" prefWidth="822.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="bankproject.FXMLDocumentController">
+    <children>
+        <Label fx:id="label" layoutX="299.0" layoutY="88.0" minHeight="16" minWidth="69" prefHeight="33.0" prefWidth="159.0" text="Welcome V Bank">
+         <font>
+            <Font size="20.0" />
+         </font></Label>
+      <Button layoutX="328.0" layoutY="173.0" mnemonicParsing="false" onAction="#customerOption" text="Customer">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="328.0" layoutY="268.0" mnemonicParsing="false" onAction="#adminOption" prefHeight="39.0" prefWidth="101.0" text="Admin">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+    </children>
+</AnchorPane>

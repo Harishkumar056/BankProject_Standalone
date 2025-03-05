@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" fx:id="delAccFail" prefHeight="685.0" prefWidth="669.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="DeleteFail.DeleteAccFailController">
+   <children>
+      <Button mnemonicParsing="false" onAction="#backToAdmin" prefHeight="33.0" prefWidth="51.0" text="Back">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Label fx:id="delFail" layoutX="174.0" layoutY="110.0" prefHeight="33.0" prefWidth="300.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

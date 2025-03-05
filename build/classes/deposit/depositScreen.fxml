@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="depositPage" prefHeight="682.0" prefWidth="967.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="deposit.DepositScreenController">
+   <children>
+      <Label layoutX="311.0" layoutY="97.0" text="V Bank Deposit">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="139.0" layoutY="213.0" text="Enter the Deposit Amount :">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="amount" layoutX="379.0" layoutY="205.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </TextField>
+      <Button layoutX="603.0" layoutY="471.0" mnemonicParsing="false" onAction="#depositButt" text="Proceed">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button layoutY="2.0" mnemonicParsing="false" onAction="#backButton" text="Back">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Label layoutX="136.0" layoutY="290.0" text="Enter the Account Number :">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="accNumber" layoutX="379.0" layoutY="281.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </TextField>
+      <Label layoutX="157.0" layoutY="366.0" prefHeight="27.0" prefWidth="201.0" text="Enter Your Pin Number  :">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="pin" layoutX="379.0" layoutY="358.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </TextField>
+   </children>
+</AnchorPane>

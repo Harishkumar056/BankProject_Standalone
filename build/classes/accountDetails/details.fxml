@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" fx:id="detailsPage" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="accountDetails.DetailsController">
+   <children>
+      <Label layoutX="180.0" layoutY="62.0" text="Welcome V Bank Customer">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Button fx:id="BacktoCustomer" layoutY="-1.0" mnemonicParsing="false" onAction="#backToFirstScreen" prefHeight="31.0" prefWidth="52.0" text="Back">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="237.0" layoutY="124.0" mnemonicParsing="false" onAction="#depositButton" prefHeight="39.0" prefWidth="150.0" text="Deposit">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="237.0" layoutY="194.0" mnemonicParsing="false" onAction="#withDrawButton" prefHeight="39.0" prefWidth="150.0" text="WithDraw">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="237.0" layoutY="264.0" mnemonicParsing="false" onAction="#balanceEnquire" text="Balance Enquire">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

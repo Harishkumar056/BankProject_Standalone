@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" fx:id="customerLogin" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="Login.CustomerLoginController">
+   <children>
+      <Label layoutX="239.0" layoutY="45.0" text="Customer Login">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="134.0" layoutY="123.0" text="Account Number :">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="accountNumber" layoutX="305.0" layoutY="124.0">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </TextField>
+      <Label layoutX="171.0" layoutY="187.0" prefHeight="27.0" prefWidth="108.0" text="Account Pin :">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="pinnumber" layoutX="305.0" layoutY="185.0">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </TextField>
+      <Button layoutY="-1.0" mnemonicParsing="false" onAction="#backButton" text="Back">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="467.0" layoutY="242.0" mnemonicParsing="false" onAction="#proceedButt" text="Proceed">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

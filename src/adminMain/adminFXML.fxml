@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="adminMain" prefHeight="689.0" prefWidth="770.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="adminMain.AdminFXMLController">
+   <children>
+      <Button layoutX="325.0" layoutY="208.0" mnemonicParsing="false" onAction="#customerDetails" text="Check Customers">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="324.0" layoutY="301.0" mnemonicParsing="false" onAction="#deleteCustomer" prefHeight="44.0" prefWidth="181.0" text="Delete Account">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Label layoutX="353.0" layoutY="136.0" text="Admin Main">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Button layoutY="3.0" mnemonicParsing="false" onAction="#backToAdmin" prefHeight="30.0" prefWidth="60.0" text="Back">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

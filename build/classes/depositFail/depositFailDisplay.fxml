@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" fx:id="dpositFailPage" prefHeight="687.0" prefWidth="730.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="depositFail.DepositFailDisplayController">
+   <children>
+      <Label fx:id="display" layoutX="237.0" layoutY="179.0" prefHeight="30.0" prefWidth="207.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Button layoutY="-1.0" mnemonicParsing="false" onAction="#backTodetails" text="Back">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

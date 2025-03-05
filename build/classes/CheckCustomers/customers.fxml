@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.control.cell.*?>
+<?import javafx.scene.layout.*?>
+<?import java.net.URL?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.control.cell.PropertyValueFactory?>
+<?import javafx.scene.effect.BoxBlur?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.effect.Light.Distant?>
+<?import javafx.scene.effect.Lighting?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="customerTablePage" prefHeight="696.0" prefWidth="773.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="CheckCustomers.CustomersController">
+   <children>
+      <TableView fx:id="table" layoutX="42.0" layoutY="174.0" prefHeight="448.0" prefWidth="749.0">
+        <columns>
+          <TableColumn fx:id="accnumber" prefWidth="114.0" text="Account Number ">
+              <cellValueFactory>
+                        <PropertyValueFactory property="accnumber" />
+              </cellValueFactory>
+          </TableColumn>
+          
+          <TableColumn fx:id="name" prefWidth="87.0" text="Name ">
+              <cellValueFactory>
+                        <PropertyValueFactory property="name" />
+              </cellValueFactory>
+          </TableColumn>
+          
+            <TableColumn fx:id="phNum" minWidth="0.0" prefWidth="109.0" text="phone number ">
+                <cellValueFactory>
+                        <PropertyValueFactory property="phno" />
+              </cellValueFactory>
+          </TableColumn>
+          
+            <TableColumn fx:id="address" minWidth="0.0" prefWidth="73.0" text="Address">
+                <cellValueFactory>
+                        <PropertyValueFactory property="address" />
+              </cellValueFactory>
+          </TableColumn>
+          
+            <TableColumn fx:id="aadhar" minWidth="0.0" prefWidth="108.0" text="Aadhar number">
+                <cellValueFactory>
+                        <PropertyValueFactory property="aadhar" />
+              </cellValueFactory>
+          </TableColumn>
+          
+            <TableColumn fx:id="pin" minWidth="0.0" prefWidth="63.0" text="pin">
+                <cellValueFactory>
+                        <PropertyValueFactory property="pin" />
+              </cellValueFactory>
+          </TableColumn>
+          
+            <TableColumn fx:id="fatherName" minWidth="0.0" prefWidth="98.0" text="fathers Name">
+                <cellValueFactory>
+                        <PropertyValueFactory property="fatherName" />
+              </cellValueFactory>
+          </TableColumn>
+          
+            <TableColumn fx:id="amount" minWidth="0.0" prefWidth="78.0" text="amount">
+                <cellValueFactory>
+                        <PropertyValueFactory property="amount" />
+              </cellValueFactory>
+          </TableColumn>
+        </columns>
+      </TableView>
+      <Label layoutX="293.0" layoutY="94.0" text="V Bank Customers">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Button layoutX="-6.0" layoutY="-3.0" mnemonicParsing="false" onAction="#bactToAdmin" prefHeight="30.0" prefWidth="54.0" text="Back">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
